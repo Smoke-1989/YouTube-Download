@@ -6,7 +6,7 @@ import os
 # Exemplo no Windows: FFMPEG_PATH = "C:/ffmpeg/bin/ffmpeg.exe"
 # Exemplo no Linux/macOS: FFMPEG_PATH = "/usr/local/bin/ffmpeg"
 # Deixe como None para que o yt-dlp tente encontrar automaticamente.
-FFMPEG_PATH = None
+FFMPEG_PATH = "C:/ffmpeg/bin/ffmpeg.exe"
 # -----------------------------
 
 def solicitar_url():
